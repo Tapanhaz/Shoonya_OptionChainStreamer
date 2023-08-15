@@ -5,9 +5,11 @@ This program needs python 3.11 to run correctly.
 
 The code is in prerelease state as all things are not tested in live market.
 
-Use 
+Use
 
+</div>
 git clone https://github.com/Tapanhaz/Shoonya_OptionChainStreamer.git
+</div>
 
 OR
 
