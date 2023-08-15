@@ -59,15 +59,17 @@ class WSSubscriber(QThread):
             new_tokens = new_list
 
         if new_tokens:
-            self.subscribe(new_tokens)
+            self.subscribe(new_tokens, force_subscribe=force_subscribe)
             
     def find_new_items(self, tokens):
         subscribed_set = set(self.subscribedlist.get())
         new_items = [item for item in tokens if item not in subscribed_set]
         return new_items
 
-    def subscribe(self, tokens):
+    def subscribe(self, tokens, force_subscribe):
         for i in range(0, len(tokens), 30):
             tokens_batch = tokens[i:i+30]
             self.api.subscribe(instrument=tokens_batch)
-            self.subscribedlist.append(tokens_batch)
+            if not force_subscribe:
+                self.subscribedlist.append(tokens_batch)
+
