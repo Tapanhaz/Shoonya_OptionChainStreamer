@@ -1,0 +1,7 @@
+user        : 'Your user id'
+pwd         : 'Your password'
+factor2     : ' Not needed . leave as it is'
+vc          : 'Your vendor code'
+apikey    : 'appkey '
+imei        : 'abc1234'
+token : 'your totp token'
