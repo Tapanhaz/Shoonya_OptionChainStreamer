@@ -8,9 +8,9 @@ The code is in prerelease state as all things are not tested in live market.
 Use
 
 </div>
-'''
+```
 git clone https://github.com/Tapanhaz/Shoonya_OptionChainStreamer.git
-'''
+```
 </div>
 
 OR
