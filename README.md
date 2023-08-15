@@ -1,9 +1,10 @@
 # Shoonya_OptionChainStreamer
 A simple program to stream option chain of finvasia shoonya using pyqt5
 
-This program needs python 3.11 to run correctly.
+*** This program needs python 3.11 to run correctly. ***
+*** This is only for streaming data. Not for trading ***
 
-The code is in prerelease state as all things are not tested in live market.
+The code is in prerelease state as all things are not tested in live market. So maybe some errors are there.
 
 Use
 
