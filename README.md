@@ -23,6 +23,9 @@ Then from the cloned/extracted directory run
 ```
 pip install -r requirements.txt
 ```
+
+Fill your credentials in cred.yml
+
 If using virtual environment then use the .bat file provided replacing D:\v311\Scripts\activate.bat
 
 with your virtual environment location.
