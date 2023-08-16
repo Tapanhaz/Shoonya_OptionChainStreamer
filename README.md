@@ -1,7 +1,7 @@
 # Shoonya_OptionChainStreamer
 A simple program to stream option chain of finvasia shoonya using pyqt5
 
-***This program needs python 3.11 and latest pandas (above 2.0)  to run correctly.***
+***This program requires python 3.11 and latest pandas (above 2.0)  to run correctly.***
 
 ***This is only for streaming data. Not for trading***
 
