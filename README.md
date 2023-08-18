@@ -34,6 +34,11 @@ with your virtual environment location.
 OR
 
 Can run directly
+
+
+
+[Sample.webm](https://github.com/Tapanhaz/Shoonya_OptionChainStreamer/assets/91151267/6dd6c839-4512-412e-a626-5ec758b7baf5)
+
 ```
 python OptionChainStreamer.py
 ```
